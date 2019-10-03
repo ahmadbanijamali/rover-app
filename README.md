@@ -46,7 +46,7 @@ $ docker build -t IMAGE_TAG .
 To compile rover-app
 
 ```sh
-$ docker run -v $(pwd):/usr/src/myapp -w /usr/src/myapp IMAGE_TAG ./make_roverapp.sh
+$ sudo docker run -v $(pwd):/usr/src/myapp -w /usr/src/myapp image_tag ./make_roverapp.sh
 ```
 
 The binary files are under `build/bin` directory
