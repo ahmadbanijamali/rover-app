@@ -40,7 +40,7 @@ To build the Docker image
 
 ```sh
 $ cd rover-app/
-$ docker build -t IMAGE_TAG . 
+$ sudo docker build -t image_tag . 
 ```
 
 To compile rover-app
